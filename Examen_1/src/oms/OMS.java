@@ -44,10 +44,11 @@ public abstract class OMS {
 		diagnosticar();
 		
 		System.out.println("HOSPITAL: "+getNombreHospital());
+		System.out.println(" ");
 		
 		for(int i=0; i< resultadoList.size(); i++) {
 			
-			System.out.println(resultadoList.get(i));
+			System.out.println(resultadoList.get(i)+" "+resultadoList.get(i).getNombrePaciente()+" "+resultadoList.get(i).isPositiveCase());
 			
 		}
 		

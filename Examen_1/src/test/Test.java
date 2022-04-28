@@ -14,15 +14,15 @@ public class Test {
 		
 		List<Paciente> pacientes = new ArrayList<Paciente>();
 		
-		Paciente paciente1 = new Paciente("Daniel",24,32,true);
+		Paciente paciente1 = new Paciente("Daniel",24,40,true);
 		Paciente paciente2 = new Paciente("Mariano",28,25,false);
 		Paciente paciente3 = new Paciente("Dariana",16,38,false);
-		Paciente paciente4 = new Paciente("Luis",24,32,true);
-		Paciente paciente5 = new Paciente("Fernanda",28,25,false);
+		Paciente paciente4 = new Paciente("Luis",24,40,true);
+		Paciente paciente5 = new Paciente("Fernanda",40,25,true);
 		Paciente paciente6 = new Paciente("Mario",16,38,false);
 		Paciente paciente7 = new Paciente("Valeria",24,32,true);
-		Paciente paciente8 = new Paciente("Edgar",28,25,false);
-		Paciente paciente9 = new Paciente("Alex",16,38,false);
+		Paciente paciente8 = new Paciente("Edgar",28,40,true);
+		Paciente paciente9 = new Paciente("Alex",16,38,true);
 		
 		pacientes.add(paciente1);
 		pacientes.add(paciente2);
